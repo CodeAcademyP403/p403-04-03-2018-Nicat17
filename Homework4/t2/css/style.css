@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/all.jpg);
+    background-size: cover;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    background: white;
+    height: 1200px;
+    padding: 0 50px;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 10px 0px;
+}
+header p{
+   
+    letter-spacing: 1px;
+    opacity: .9;
+    font-weight: 600;
+}
+
+nav{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+nav>ul{
+    list-style-type: none;
+}
+nav>ul>li{
+    display: inline-block;
+    margin-right: 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+    
+}
+nav>ul>li:first-child a{
+    color: rgb(25, 138, 110);
+    
+}
+nav>ul>li>a:hover{
+    position: relative;
+    color: rgb(14, 131, 115);
+}
+section{
+    margin-top: 50px;
+    clear: both;
+    height: 400px;
+    position: relative;
+}
+
+.left{
+    width: 60%;
+    height: 300px;
+    float: left;
+}
+
+.left img{
+    width: 100%;
+    height: 400px;
+    background-size: 100px 100px;
+}
+
+.right{
+    text-align: left;
+    width: 40%;
+    height: 300px;
+    float: left;
+    padding: 50px;
+}
+
+.right h1{
+    margin: 20px 0px;
+}
+.right input{
+    margin: 20px 0px;
+    background: rgb(32, 108, 138);
+    width: 120px;
+    height: 30px;
+    outline: none;
+    
+}
+.right input:hover{
+   opacity: 0.8;
+   cursor: pointer;
+    
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    height: 440px;
+    position: relative;
+}
+footer div{
+    width: 45%;
+    height: 400px;
+    float: left;
+    top:15%;
+}
+#l{
+    margin-right: 132px;
+}
+
+footer img{
+   width: 100%;
+   height: 400px;
+}
+.kl{
+    position: absolute;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400; 
+}
+.a{
+   
+    left:-5%;
+}
+.b{
+    left:47%;
+}
